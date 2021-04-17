@@ -1,0 +1,124 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&display=swap');
+/*global */
+body{
+    font-family: 'Cairo', sans-serif;
+}
+h1{
+    text-align: center;
+}
+hr{
+    width: 5%;
+    border: 1px solid rgba(58,173,230, 1);
+    margin-bottom: 80px;
+}
+/*Start Navbar*/
+.navbar-brand img{
+    height: 78px;
+}
+.nav-item{
+    text-align: left;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58,173,230, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+button:focus{
+    outline:none;
+}
+/*End Navbar*/
+/*Start Articles*/
+.article-info{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.article-info h1{
+    text-align: right;
+    border-right: 4px solid rgba(58,173,230, 1);
+    margin-right: 50px;
+    padding-right: 10px; 
+}
+.micro{
+    background: url('../imgs/articles.jpg')  no-repeat;
+    
+    height: auto;
+}
+.micro .card{
+    margin-top: 80px;
+    border-radius: 20px;
+    overflow: hidden;
+   box-shadow: 4px 4px 8px #838383 ,-4px -4px 8px #838383;
+}
+.micro .card a{
+    background-color: rgb(25, 25, 63);
+    border-radius: 20px;
+    border: none;
+    padding: 8px 20px;
+}
+.micro .card-body{
+    position: relative;
+}
+.micro .view{
+    text-align: left;
+    position: absolute;
+    left: 25px;
+    bottom: 10px;
+}
+.micro .micro-btn{
+    margin: 30px auto;
+    padding: 10px 65px;
+    background-color: rgb(25, 25, 63);
+    color: #ffff;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.page{
+   margin-bottom: 40px;
+    margin-top: 40px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End Articles*/
+/*Start Footer*/
+.footer{
+    background-image: url('../imgs/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    color: #ffff;
+    overflow: hidden;
+   
+}
+.footer img{
+    max-width: 40%;
+    margin-top: 80px;
+} 
+.footer p{
+    margin-top: 30px;
+}
+.footer-links{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.footer-links i{
+    margin-left: 12px;
+    cursor: pointer;
+}
+/*End Footer*/

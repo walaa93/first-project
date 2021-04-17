@@ -1,0 +1,96 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&display=swap');
+/*global */
+body{
+    font-family: 'Cairo', sans-serif;
+}
+h1{
+    text-align: center;
+}
+hr{
+    width: 5%;
+    border: 1px solid rgba(58,173,230, 1);
+    margin-bottom: 80px;
+}
+/*Start Navbar*/
+.navbar-brand img{
+    height: 78px;
+    margin: 0;
+    max-width: 100%;
+}
+.nav-item{
+    text-align: left;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58,173,230, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+button:focus{
+    outline:none;
+}
+/*End Navbar*/
+/*Start Info*/
+.info{
+    background-image: url('../imgs/bg30-Ar1web.gif');
+    height: auto;
+    text-align: center;
+}
+.comp-news{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.comp-news h1{
+    text-align: right;
+    border-right: 4px solid rgba(58,173,230, 1);
+    margin-right: 50px;
+    padding-right: 10px; 
+    font-weight: 600;
+    font-size: 30px;
+}
+img{
+    max-width: 50%;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+.info-comp{
+    background-color: #ffff;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 20px #838383, -10px -10px 20px #838383;
+   
+}
+.info-comp p{
+    padding: 40px;
+    line-height: 2.5;
+}
+/*End Info*/
+/*Start Footer*/
+.footer{
+    background-image: url('../imgs/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    color: #ffff;
+    overflow: hidden;
+   
+}
+.footer img{
+    max-width: 40%;
+    margin-top: 80px;
+} 
+.footer p{
+    margin-top: 0px;
+}
+.footer-links{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.footer-links i{
+    margin-left: 12px;
+    cursor: pointer;
+}
+/*End Footer*/

@@ -1,0 +1,122 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&display=swap');
+/*global */
+body{
+    font-family: 'Cairo', sans-serif;
+}
+h1{
+    text-align: center;
+}
+hr{
+    width: 5%;
+    border: 1px solid rgba(58,173,230, 1);
+    margin-bottom: 80px;
+}
+/*Start Navbar*/
+.navbar-brand img{
+    height: 78px;
+}
+.nav-item{
+    text-align: left;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58,173,230, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+button:focus{
+    outline:none;
+}
+/*End Navbar*/
+/*Start Works*/
+.works-info{
+    padding-top: 50px;
+    padding-right:70px ;
+    
+}
+.our-works h1{
+    text-align: right;
+    border-right: 4px solid rgba(58,173,230, 1);
+    
+    margin-right: 50px;
+    padding-right: 10px; 
+}
+.our-works{
+    background-image: url('../imgs/bg30-Ar1web.gif');
+    height: auto;
+}
+.works{
+    padding-bottom: 55px;
+}
+.works .work-item{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.works .work-card{
+    margin-top: 55px;
+    text-align: center;
+    
+}
+.work-card .card,.work-card .card img{
+    border-radius: 20px;
+}
+
+.work-card .card{
+   box-shadow: 10px 10px 20px #838383;
+             
+}
+.our-works a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.page{
+   
+    margin-top: 40px ;
+}
+
+/*End Works*/
+
+/*Start Footer*/
+.footer{
+    background-image: url('../imgs/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    color: #ffff;
+    overflow: hidden;
+   
+}
+.footer img{
+    max-width: 40%;
+    margin-top: 80px;
+} 
+.footer p{
+    margin-top: 30px;
+}
+.footer-links{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.footer-links i{
+    margin-left: 12px;
+    cursor: pointer;
+}
+/*End Footer*/
+/*responsive*/
+@media screen and (max-width:576px){
+    .footer img{
+        max-width: 50%;
+        margin-top: 30px;
+    } 
+    .footer p{
+        margin-top: 22px;
+    }
+    .footer-links{
+        margin-top: 10px;
+        margin-bottom: 10px;
+       
+    }
+    
+}
